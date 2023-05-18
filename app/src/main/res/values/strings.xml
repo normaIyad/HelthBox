@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Health in Box </string>
+    <string name="login">Log in</string>
+    <string name="user_name">User name</string>
+    <string name="Password">Password</string>
+    <string name="Register">Register</string>
+    <string name="Email">Email</string>
+    <string name="sing">sing up</string>
+    <string name="user_birthdate">"Birth date "</string>
+    <string name="Appointments">Appointments</string>
+    <string name="MyResults">My Results</string>
+    <string name="TestPackages">Test Packages</string>
+    <string name="Find_Doctor">Find a Doctor</string>
+    <string name="Avalible_Tests">Available Tests</string>
+    <string name="Ask_me">Ask me</string>
+    <string name="logout">log out</string>
+    <string name="id_number">id number</string>
+    <string name="address">address</string>
+    <string name="componyname">compony name</string>
+    <string name="doctorname">doctor name</string>
+    <string name="date">date</string>
+    <string name="appointment">appointment</string>
+    <string name="home_vist">home visit</string>
+    <string name="inlap">in lap</string>
+    <string name="spinner1_tests">select tests</string>
+    <string name="spinner2_testbackages">test packages</string>
+    <string name="Appointment_booked">Appointment booked</string>
+    <string name="tests">Tests</string>
+    <string name="test_find">find test</string>
+    <string name="find_packages">find packages</string>
+    <string name="show_my_result">show_my_result</string>
+    <string-array name="tests">
+        <item>select Test</item>
+        <item>Donor Specific Antibodies</item>
+        <item>Fasting Blood</item>
+        <item>Glucose Sugar 22</item>
+        <item>Interleukin-1beta </item>
+    </string-array>
+    <string-array name="Test_Packages">
+        <item>select Test Packages</item>
+        <item>Examinations of a healthy child</item>
+        <item> Dear poultry </item>
+        <item> Unital Corporation </item>
+        <item>lab </item>
+        <item>Vitamins and blood strength </item>
+        <item>Comprehensive screening campaign </item>
+        <item> National Beverage Campaign</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="@string/find_packages"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/icon_back"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/liner"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextValueSearch1"
+            android:layout_width="308dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:hint="@string/Find_Doctor"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/findSearchPac1"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="find"
+            android:background="@color/background"
+            android:drawableTop="@drawable/ic_baseline_search_serch" />
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycle_find_test_pac1"/>
+
+</LinearLayout>
